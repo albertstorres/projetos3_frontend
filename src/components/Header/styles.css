@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #34c759;
+}
+
+.bem-vindo{
+    width: 300px;
+    height:33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #093030;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,33 @@
+.home-logo {
+    width: 307px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home {
+    background-color: #f1fff3;
+    width: 494px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 96px 68px 96px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.home-span {
+    text-decoration: none;
+    color: #093030;
+    font-size: 15px;
+}
+
+.home button {
+    width: 207px;
+    height: 45px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
