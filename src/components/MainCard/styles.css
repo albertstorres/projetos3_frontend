@@ -1,0 +1,29 @@
+.main-card {
+    width: 138px;
+    height: 138px;
+    color: #34c759;
+    background-color: #052224;
+    border-radius: 25.79px;
+    padding: 24px 26px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-card:hover {
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+
+.main-card h1 {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.icon {
+    border: none;
+    width: 104px;
+    height: 78px;
+}

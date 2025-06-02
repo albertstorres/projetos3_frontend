@@ -4,6 +4,8 @@ import Main from './pages/Main';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Home from './pages/Home';
+import CreateAddress from './pages/CreateAddress';
+import CreateCollect from './pages/CreateCollect';
 
 type Props = {
     redirectTo: string;
@@ -22,6 +24,8 @@ function MainRoutes() {
             <Route path='/login' element={<SignIn />} />
             <Route element={<ProtectedRoutes redirectTo='/' />} >
                 <Route path='/main' element={<Main/>} />
+                <Route path='/createAddress' element={<CreateAddress />} />
+                <Route path='/createCollect' element={<CreateCollect />} />
             </Route>
         </Routes>
     );

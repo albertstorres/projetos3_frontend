@@ -8,14 +8,25 @@
     background-color: #34c759;
 }
 
-.bem-vindo{
-    width: 600px;
-    height:33px;
+.texto{
+    width: 100%;
+    height:22px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     color: #093030;
-    font-size: 33px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
+}
+
+.saldo{
+    position: absolute;
+    width: 303px;
+    height: 36px;
+    top: 53px;
+    left: 49px;
+    color: #f1fff3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
 }

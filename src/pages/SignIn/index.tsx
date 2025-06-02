@@ -21,8 +21,9 @@ function SignIn() {
                 username,
                 password
             });
-            const { accessToken } = response.data;
-            handleAddToken(accessToken);
+            const { access } = response.data;
+            handleAddToken(access);
+
             navigate('/main');
 
         }catch(error){
